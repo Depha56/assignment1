@@ -23,7 +23,7 @@
 
 
 int main(){
-    double array[] = {1.1,2.2,3.3,4.4,5.5};
+    double array[] = {1.5, 4.2, 3.7, 8.4,2.5};
     int numberOfElements =3;
     double result;
 

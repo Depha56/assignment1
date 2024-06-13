@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-//Function to swap two integer values
-
+// Function to swap two integer values
 void swapValues(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -9,14 +8,17 @@ void swapValues(int *a, int *b) {
 }
 
 int main() {
-    int value1 = 35;
-    int value2 = 12;
+    int value1, value2;
 
+    printf("Enter the first integer: ");
+    scanf("%d", &value1); // Allowing user to input value1
+
+    printf("Enter the second integer: ");
+    scanf("%d", &value2); // Allowing user to input value2
 
     printf("Before swap: value1 = %d, value2 = %d\n", value1, value2);
 
-    //Call swapValues function
-
+    // Call swapValues function
     swapValues(&value1, &value2);
 
     printf("After swap: value1 = %d, value2 = %d\n", value1, value2);
